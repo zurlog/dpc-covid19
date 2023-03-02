@@ -20,11 +20,9 @@ The analysis includes data cleaning, data manipulation, and visualization to aid
 
 
 ## Data
-***
 The COVID-19 data used in this project is publicly available from the Italian Government's GitHub repository under CC-BY-4.0 licence. Population data<sup>[1](http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1#)</sup> and *shapefiles*<sup>[2](https://www.istat.it/it/archivio/222527)</sup> are provided by the Italian National Institute of Statistics ISTAT.
 
 ## Usage
-***
 To run the analysis, you must have Python 3.x and the required libraries installed. The required libraries are listed and imported in the [`setup.ipynb`](https://github.com/zurlog/dpc-covid19/blob/master/scripts/setup.ipynb) notebook. 
 
 The `dpc-covid19` repository contains the following folders:
@@ -41,7 +39,6 @@ The `dpc-covid19` repository contains the following folders:
 
 
 ## Acknowledgments
-***
 *References, Inspiration, Code Snippets, etc.*
 
 * [**DPC** - Italian COVID-19 DATA](https://github.com/pcm-dpc/COVID-19/blob/master/README_EN.md)
