@@ -11,7 +11,7 @@
 
 As a Master's student, I am conducting an exploratory analysis of COVID-19 italian data to serve as the foundation of my Master's Thesis. The thesis aims to investigate the impact of the pandemic on businesses' bankruptcies in the Emilia-Romagna region.
 
-In this analysis, I will explore the available COVID-19 data from the [official GitHub page]((https://github.com/pcm-dpc/COVID-19)) of the Italian Civil Protection Department. The Civil Protection Department is a government agency in Italy responsible for handling emergency situations and protecting the population from natural disasters, accidents, and other hazards.
+In this analysis, I explore the available COVID-19 data from the [official GitHub page]((https://github.com/pcm-dpc/COVID-19)) of the Italian Civil Protection Department. The Civil Protection Department is a government agency in Italy responsible for handling emergency situations and protecting the population from natural disasters, accidents, and other hazards.
 
 The analysis includes data cleaning, data manipulation, and visualization to aid in further analysis and enhance the research with informative and helpful figures. Given that the Emilia-Romagna region is the subject of my thesis, special attention will be devoted to it: in this repository you will find filtered datasets to lay the groundwork for further research into the virus's economic consequences in the region.
 
@@ -45,7 +45,6 @@ The `dpc-covid19` repository contains the following folders:
 * [**ISTAT** - Resident Population at January 1<sup>st</sup>](http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1#)
 * [**ISTAT** - Boundaries of Administrative Units as of January 1<sup>st</sup>](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
-***
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
