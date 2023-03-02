@@ -45,6 +45,7 @@ The `dpc-covid19` repository contains the following folders:
 * [**ISTAT** - Resident Population at January 1<sup>st</sup>](http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1#)
 * [**ISTAT** - Boundaries of Administrative Units as of January 1<sup>st</sup>](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
+***
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
