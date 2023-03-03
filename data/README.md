@@ -3,7 +3,7 @@
 
 ### Regional Data
 
-**File complessivo:** dpc-covid19-ita-regioni.csv<br>
+**Dataset:** dpc-covid19-ita-regioni.csv<br>
 **Notebook:** dpc-covid19-regions.ipynb
 
 <br>
@@ -24,7 +24,7 @@
 | **variazione_totale_positivi**   | News amount of current positive cases (totale_positivi current day - totale_positivi previous day)             | Integer                                     | 3                   |
 | **nuovi_positivi**               | News amount of current positive cases (totale_casi current day - totale_casi previous day)                     | Integer                                     | 3                   |
 | **dimessi_guariti**              | Recovered                                                                                                      | Integer                                     | 3                   |
-| **deceduti**                     | Death                                                                                                          | Integer                                     | 3                   |
+| **deceduti**                     | Deaths                                                                                                         | Integer                                     | 3                   |
 | **casi_da_sospetto_diagnostico** | Positive cases emerged from clinical activity **No longer populated**                                          | Integer                                     | 3                   |
 | **casi_da_screening**            | Positive cases emerging from surveys and tests, planned at national or regional level  **No longer populated** | Integer                                     | 3                   |
 | **totale_casi**                  | Total amount of positive cases                                                                                 | Integer                                     | 3                   |
@@ -44,7 +44,7 @@
 
 ### Provincial Data
 
-**File complessivo:** dpc-covid19-ita-province.csv<br>
+**Dataset:** dpc-covid19-ita-province.csv<br>
 **Notebook:** dpc-covid19-province.ipynb
 
 | Field Name                  | Description                     | Format                                      | Example             |
@@ -65,7 +65,7 @@
 <br>
 
 *The Autonomous Provinces of Trento and Bolzano are indicated in 'Region Name' and with the code 04 for Trentino Alto Adige.*<br>
-Each Region has two provinces' called *'Outside Region/Autonomous Province'*, with the province code from **879 to 899**, useful to indicate data on subjects outside the Region or Autonomous Province, and *'Under definition/updated'*, with the province code from **979 to 999**, useful to indicate data not yet assigned to the Provinces.<br>
+Each Region has two provinces' called *'Fuori Regione / Provincia Autonoma'*, with the province code from **879 to 899**, useful to indicate data on subjects outside the Region or Autonomous Province, and *'In fase di definizione/aggiornamento'*, with the province code from **979 to 999**, useful to indicate data not yet assigned to the Provinces.<br>
 
 ***
 
