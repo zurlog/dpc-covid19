@@ -20,15 +20,16 @@ The analysis includes data cleaning, data manipulation, and visualization to aid
 
 
 ## Data
-The COVID-19 data used in this project is publicly available from the Italian Government's GitHub repository under CC-BY-4.0 licence. Population data<sup>[1](http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1#)</sup> and *shapefiles*<sup>[2](https://www.istat.it/it/archivio/222527)</sup> are provided by the Italian National Institute of Statistics ISTAT.
+The COVID-19 data used in this project is publicly available from the Italian Government's GitHub repository under CC-BY-4.0 licence. Population data<sup>[1](http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1#)</sup> and *shapefiles*<sup>[2](https://www.istat.it/it/archivio/222527)</sup> are provided by the Italian National Institute of Statistics ISTAT. A *shapefile* that is coherent with NUTS2 classification was retrieved from [OnData Association](https://github.com/ondata/nuts) Github repository.
+
 
 ## Usage
 To run the analysis, you must have Python 3.x and the required libraries installed. The required libraries are listed and imported in the [`setup.ipynb`](https://github.com/zurlog/dpc-covid19/blob/master/scripts/setup.ipynb) notebook. 
 
 The `dpc-covid19` repository contains the following folders:
-* `scripts` that contain `Python` scripts and jupyter notebook files
-* `conf`, if necessary, that contains configuration files used in scripts or jupyter notebook files
-* `data`, that contains input files in the `.csv` format
+* `scripts` that contain Jupyter notebook files
+* `conf`, if necessary, that contains configuration files used in scripts or Jupyter notebook files
+* `data`, that contains input files in the `.csv` format along with geographic files
 * `results` that contains output files, usually in the `.csv` format 
 * `figures` that contains plot files
 * `reference` that contains any possibly referenced resource.
@@ -44,7 +45,8 @@ The `dpc-covid19` repository contains the following folders:
 * [**DPC** - Italian COVID-19 DATA](https://github.com/pcm-dpc/COVID-19/blob/master/README_EN.md)
 * [**ISTAT** - Resident Population at January 1<sup>st</sup>](http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1#)
 * [**ISTAT** - Boundaries of Administrative Units as of January 1<sup>st</sup>](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-
+* [**OnData** - Boundaries of Italian NUTS2 Regions](https://github.com/ondata/nuts) *(Not available from ISTAT)*
+* [*Naqvi A., (2021).* **COVID-19 European regional tracker** ](https://doi.org/10.1038/s41597-021-00950-7)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
